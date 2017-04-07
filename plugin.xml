@@ -38,6 +38,7 @@
         <js-module src="www/inappbrowser.js" name="inappbrowser">
             <clobbers target="cordova.InAppBrowser.open" />
             <clobbers target="window.open" />
+            <clobbers target="cordova.InAppBrowserCamera.open" />
         </js-module>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="InAppBrowser"> 
@@ -118,6 +119,7 @@
         <js-module src="www/inappbrowser.js" name="inappbrowser">
             <clobbers target="cordova.InAppBrowser.open" />
             <clobbers target="window.open" />
+            <clobbers target="cordova.InAppBrowserCamera.open" />
         </js-module>  
         <config-file target="config.xml" parent="/*">
             <feature name="InAppBrowser">
